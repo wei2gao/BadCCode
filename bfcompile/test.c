@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main(){
+int *tape = calloc(65536,sizeof(int));
+ 			if(!tape) return 1;
+ 			int *ptr = tape;
+++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);++ptr;++ptr;++ptr;putc(*ptr,stdout);do{--*ptr;}while(*ptr!=0);++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);++ptr;++ptr;++ptr;putc(*ptr,stdout);--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;--*ptr;putc(*ptr,stdout);++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;putc(*ptr,stdout);++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;putc(*ptr,stdout);do{--*ptr;}while(*ptr!=0);--ptr;--ptr;--ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);++ptr;++ptr;++ptr;++*ptr;++*ptr;putc(*ptr,stdout);--ptr;++*ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;--ptr;--*ptr;}while(*ptr!=0);++ptr;putc(*ptr,stdout);do{--*ptr;}while(*ptr!=0);++*ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;--ptr;--*ptr;}while(*ptr!=0);--ptr;--*ptr;}while(*ptr!=0);++ptr;++ptr;putc(*ptr,stdout);++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;putc(*ptr,stdout);do{--*ptr;}while(*ptr!=0);++*ptr;++*ptr;do{++ptr;++*ptr;++*ptr;++*ptr;++*ptr;++*ptr;--ptr;--*ptr;}while(*ptr!=0);++ptr;putc(*ptr,stdout);free(tape);
+return 0;
+}
